@@ -81,20 +81,21 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/js/main.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./index.js":
-/*!******************!*\
-  !*** ./index.js ***!
-  \******************/
+/***/ "./src/js/main.js":
+/*!************************!*\
+  !*** ./src/js/main.js ***!
+  \************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("var object = {\n  name: 'some',\n  action: function action() {\n    var _this = this;\n\n    setTimeout(function () {\n      console.log('name: ' + _this.name);\n    }, 2000);\n  }\n};\nobject.action();\n\n//# sourceURL=webpack:///./index.js?");
+console.log(4 + 8);
 
 /***/ })
 
 /******/ });
+//# sourceMappingURL=script.js.map
