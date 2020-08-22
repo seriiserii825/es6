@@ -1,5 +1,9 @@
-const App = 1;
-
-let testFunc = () => {
-	console.log('some');
-}
+const object = {
+	name: 'some',
+	action: function () {
+		setTimeout(() => {
+			console.log('name: ' + this.name);
+		}, 2000);
+	}
+};
+object.action();

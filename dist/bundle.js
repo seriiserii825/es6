@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("var App = 1;\n\nvar testFunc = function testFunc() {\n  console.log('some');\n};\n\n//# sourceURL=webpack:///./index.js?");
+eval("var object = {\n  name: 'some',\n  action: function action() {\n    var _this = this;\n\n    setTimeout(function () {\n      console.log('name: ' + _this.name);\n    }, 2000);\n  }\n};\nobject.action();\n\n//# sourceURL=webpack:///./index.js?");
 
 /***/ })
 
